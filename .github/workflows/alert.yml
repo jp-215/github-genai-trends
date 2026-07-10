@@ -1,0 +1,37 @@
+name: Trend Alert
+
+on:
+  schedule:
+    # ~08:17 Pacific daily. GitHub cron is UTC; 15:17 UTC = 08:17 PDT (07:17 PST).
+    - cron: "17 15 * * *"
+  workflow_dispatch: {}  # allow manual runs from the Actions tab
+
+# Needed so the job can commit the updated seen-set + data.json back to the repo.
+permissions:
+  contents: write
+
+# Never run two alert jobs at once (they'd both push the seen-set).
+concurrency:
+  group: trend-alert
+  cancel-in-progress: false
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Detect trends and post to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # built-in; raises the API rate limit
+        run: python -m gh_trends.cli --post --json web/data.json
+      - name: Commit updated seen-set + data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json web/data.json
+          git commit -m "chore: update trend seen-set + data [skip ci]" || echo "nothing to commit"
+          git push

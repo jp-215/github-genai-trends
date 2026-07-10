@@ -1,0 +1,16 @@
+[project]
+name = "github-genai-trends"
+version = "0.1.0"
+description = "Detect trending Generative-AI repos on GitHub and alert on the new ones"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

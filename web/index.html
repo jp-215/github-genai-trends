@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Trend Detector — GenAI</title>
+  <style>
+    :root { --bg:#0d1117; --card:#161b22; --fg:#e6edf3; --muted:#8b949e; --accent:#a371f7; --star:#e3b341; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg);
+           font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+    header { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
+    h1 { font-size: 1.6rem; margin: 0; }
+    .sub { color: var(--muted); font-size: .9rem; }
+    .meta { color: var(--muted); font-size: .85rem; margin: 6px 0 24px; }
+    .card { background: var(--card); border:1px solid #30363d; border-radius: 12px;
+            padding: 16px 18px; margin: 12px 0; transition: border-color .15s; }
+    .card:hover { border-color: var(--accent); }
+    .card a { color: var(--fg); text-decoration: none; font-weight: 600; font-size: 1.05rem; }
+    .card a:hover { color: var(--accent); }
+    .row { display:flex; gap:14px; flex-wrap:wrap; color: var(--muted); font-size:.82rem; margin-top:6px; }
+    .stars { color: var(--star); font-weight:600; }
+    .vel { color: var(--accent); font-weight:600; }
+    .desc { color: var(--fg); opacity:.9; margin-top:8px; font-size:.95rem; }
+    .topics { margin-top:8px; }
+    .topic { display:inline-block; background:#21262d; color:var(--muted); border-radius:2em;
+             padding:2px 10px; font-size:.72rem; margin:2px 4px 2px 0; }
+    .empty { color: var(--muted); padding: 24px 0; }
+    footer { color: var(--muted); font-size: .8rem; margin-top: 40px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🚀 GitHub Trend Detector</h1>
+      <span class="sub" id="label">GenAI on GitHub</span>
+    </header>
+    <div class="meta" id="meta">Loading…</div>
+    <div id="list"></div>
+    <footer>
+      Trending = star <em>velocity</em> (stars/day) on repos created in the last 30 days.
+      Auto-generated daily by GitHub Actions · github-genai-trends
+    </footer>
+  </div>
+
+  <script>
+    function fmtDate(ms) {
+      if (!ms) return "";
+      return new Date(ms).toISOString().slice(0, 10);
+    }
+    fetch("data.json?_=" + Date.now())
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById("label").textContent = d.label || "GenAI on GitHub";
+        const repos = d.repos || [];
+        document.getElementById("meta").textContent =
+          `${repos.length} trending repos · generated ${d.date || fmtDate(d.generated_ms)}`;
+        const list = document.getElementById("list");
+        if (!repos.length) {
+          list.innerHTML = '<div class="empty">No trending repos in the current window.</div>';
+          return;
+        }
+        list.innerHTML = repos.map(r => {
+          const topics = (r.topics || []).slice(0, 6)
+            .map(t => `<span class="topic">${t}</span>`).join("");
+          return `<div class="card">
+            <a href="${r.url}" target="_blank" rel="noopener">${r.full_name}</a>
+            <div class="row">
+              <span class="stars">★ ${r.stars}</span>
+              <span class="vel">+${r.velocity_per_day}/day</span>
+              ${r.language ? `<span>${r.language}</span>` : ""}
+              <span>created ${fmtDate(r.created_ms)}</span>
+            </div>
+            ${r.description ? `<div class="desc">${r.description}</div>` : ""}
+            ${topics ? `<div class="topics">${topics}</div>` : ""}
+          </div>`;
+        }).join("");
+      })
+      .catch(e => {
+        document.getElementById("meta").textContent = "Failed to load data.json";
+        console.error(e);
+      });
+  </script>
+</body>
+</html>

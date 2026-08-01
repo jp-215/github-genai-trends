@@ -2,10 +2,12 @@
   "seen": [
     "0xsline/OpenChatCut",
     "0xwilliamortiz/openclaude-improved",
+    "0xwilliamortiz/ratchet",
     "47thtechcorner/RayCodes_OmniRoute-Explorer",
     "7-e1even/learn-agent",
     "AI-Builder-Club/skills",
     "AIScientists-Dev/academic-humanizer",
+    "AgentSwarms-fyi/agentswarms",
     "AgustiPuigserver/opus-prompt-architect",
     "AlephAITech/WorkBuddyGuide",
     "Alisa0808/vox-director",
@@ -110,6 +112,7 @@
     "finna/Finn-loop",
     "flatkey-ai/flatkey-cli",
     "fuji-mak/Capsomnia",
+    "fyfsxkh/TokBrain",
     "gakonst/nanocodex",
     "gamedev-skills/awesome-gamedev-agent-skills",
     "gemini35pro/Gemini-3.5-Pro-Free-Desktop",
@@ -198,6 +201,7 @@
     "xuzhougeng/wisp-science",
     "yanhua1010/self-media-content-workflow",
     "youxiandechilun/Guido",
-    "zai-project/glm-5.2-free-desktop-app"
+    "zai-project/glm-5.2-free-desktop-app",
+    "zhiweio/EagleRAG"
   ]
 }

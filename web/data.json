@@ -1,97 +1,72 @@
 {
   "label": "GenAI on GitHub",
-  "date": "2026-08-01",
-  "generated_ms": 1785600735835,
+  "date": "2026-08-02",
+  "generated_ms": 1785687137836,
   "repos": [
     {
-      "full_name": "0xwilliamortiz/ratchet",
-      "url": "https://github.com/0xwilliamortiz/ratchet",
-      "description": "Your agent reads the rules. This checks whether it followed them.",
-      "stars": 406,
-      "language": "JavaScript",
+      "full_name": "EXXETA/exxperts",
+      "url": "https://github.com/EXXETA/exxperts",
+      "description": "Local-first AI agents with governed, approval-gated memory. Any model provider; MCP tools and web search built in. Nothing remembered without your say-so, nothing leaves your machine.",
+      "stars": 291,
+      "language": "TypeScript",
       "topics": [
-        "ai-agents",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-skills",
-        "code-quality",
-        "developer-tools",
-        "hooks",
+        "agents",
+        "ai",
         "llm",
-        "ratchet",
-        "rate-limiting",
-        "static-analysis",
-        "yagni"
+        "local-first",
+        "mcp",
+        "memory",
+        "typescript"
       ],
-      "velocity_per_day": 406.0,
-      "created_ms": 1785520470000,
-      "pushed_ms": 1785529865000
+      "velocity_per_day": 11.1,
+      "created_ms": 1783422601000,
+      "pushed_ms": 1785403743000
     },
     {
-      "full_name": "fyfsxkh/TokBrain",
-      "url": "https://github.com/fyfsxkh/TokBrain",
-      "description": "Preserve knowledge, sustain wisdom forever.",
+      "full_name": "p0nymc1/cee",
+      "url": "https://github.com/p0nymc1/cee",
+      "description": "Deterministic-first execution engine for agent workflows in Go: the LLM extracts at the edge, a deterministic state machine decides. Zero dependencies, no-code JSON plugins, replayable runs.",
+      "stars": 25,
+      "language": "Go",
+      "topics": [
+        "agents",
+        "ai-agents",
+        "circuit-breaker",
+        "dag",
+        "deterministic",
+        "execution-engine",
+        "go",
+        "golang",
+        "llm",
+        "llmops",
+        "orchestration",
+        "saga",
+        "state-machine",
+        "workflow-engine",
+        "zero-dependency"
+      ],
+      "velocity_per_day": 5.96,
+      "created_ms": 1785324920000,
+      "pushed_ms": 1785591647000
+    },
+    {
+      "full_name": "vailsen/paperless-brain",
+      "url": "https://github.com/vailsen/paperless-brain",
+      "description": "AI brain for your Paperless-ngx archive \u2014 chat with your documents via local (Ollama) or cloud  LLMs, with agentic tool use, semantic search, and long-term memory.",
       "stars": 21,
       "language": "Python",
       "topics": [
-        "douyin",
-        "fastapi",
-        "knowledge-base",
-        "local-first",
-        "nextjs",
-        "rag"
-      ],
-      "velocity_per_day": 4.82,
-      "created_ms": 1785224450000,
-      "pushed_ms": 1785430832000
-    },
-    {
-      "full_name": "AgentSwarms-fyi/agentswarms",
-      "url": "https://github.com/AgentSwarms-fyi/agentswarms",
-      "description": "Unified Agentic AI and Business Intelligence Platform",
-      "stars": 22,
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "agentic-bi",
-        "agentic-workflow",
-        "agents",
-        "ai",
-        "ai-workflows",
-        "artificial-intelligence",
-        "business-analytics",
-        "business-intelligence",
-        "langchain",
-        "langgraph",
+        "document-management",
+        "llm",
+        "nicegui",
+        "ollama",
+        "paperless-ngx",
         "rag",
-        "rag-chatbot",
-        "rag-pipeline",
-        "typescript",
-        "visual-editor"
+        "self-hosted"
       ],
-      "velocity_per_day": 2.04,
-      "created_ms": 1784669703000,
-      "pushed_ms": 1785598797000
-    },
-    {
-      "full_name": "zhiweio/EagleRAG",
-      "url": "https://github.com/zhiweio/EagleRAG",
-      "description": "Search knowledge by what documents mean and how they look \u2014 not one or the other.",
-      "stars": 20,
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "milvus",
-        "multimodal",
-        "rag",
-        "search",
-        "semantic-chunking",
-        "vision",
-        "vlm"
-      ],
-      "velocity_per_day": 0.73,
-      "created_ms": 1783229908000,
-      "pushed_ms": 1784961929000
+      "velocity_per_day": 1.77,
+      "created_ms": 1784659275000,
+      "pushed_ms": 1785602640000
     }
   ]
 }

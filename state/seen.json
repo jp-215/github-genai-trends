@@ -1,5 +1,6 @@
 {
   "seen": [
+    "0toshigami/orbis-pictus",
     "0xsline/OpenChatCut",
     "0xwilliamortiz/openclaude-improved",
     "0xwilliamortiz/ratchet",
@@ -100,6 +101,7 @@
     "TencentCloud/Octop",
     "TryCaspian/caspian-sdk",
     "Tura-AI/tura",
+    "UditAkhourii/neuroarxiv",
     "UiPath/coder_eval",
     "VantageInc/LucyLive-AI-Render",
     "Vaquill-AI/open-us-law",
@@ -114,8 +116,10 @@
     "YoanWai/agent-manager",
     "YurunChen/repo-docs-skills",
     "ZeKaiNie/universal-examprep-skill",
+    "activeing123/mcptoon",
     "aigclink/geolook",
     "aigurutinix/r2ai-stage-1",
+    "ailinone/collective-intelligence",
     "aipoch/open-science",
     "alfadur7/llm-wiki-newsroom",
     "alikon-art/DeterminFlow",
@@ -136,6 +140,7 @@
     "cookyman74/llmwiki-harness",
     "cowboycodr/sitegeist",
     "dacnay816y62-hub/fantasy-dongfang-jianyuehaibao",
+    "davidahmann/fde-guide",
     "deer-flow/llm-space",
     "deerwork-ai/deer-workflow",
     "dmirain/OctoForge",
@@ -198,6 +203,7 @@
     "manor-os/manor-ai",
     "max-ramas/rms-memory-mcp",
     "melocream/awesome-llm-study",
+    "memorax-ai/memorax-code",
     "mereyabdenbekuly-ctrl/clodex-ide",
     "metaspark12/Meta-Muse-Spark-1.2-Free-Desktop-App",
     "michaelshimeles/boring-computers",
@@ -246,6 +252,7 @@
     "sums001/Windows-Copilot-API",
     "sunyifeng11111/sun-felt-wechat-illustrator",
     "sv-number/mcp-server",
+    "swping999/scene-card-studio",
     "synthetic-sciences/openscience",
     "thenicolas1894/awesome-claude-fable-5-prompt-vault",
     "thesysdev/appless",
@@ -273,6 +280,7 @@
     "youxiandechilun/Guido",
     "zai-project/glm-5.2-free-desktop-app",
     "zeraix/zeraix",
-    "zhiweio/EagleRAG"
+    "zhiweio/EagleRAG",
+    "zhiweio/data-driven-ai-guide"
   ]
 }

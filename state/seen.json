@@ -52,6 +52,7 @@
     "FareedKhan-dev/kimi-k3-in-c",
     "Forsy-AI/agent-apprenticeship",
     "Forward-Future/loopy",
+    "FuRongJun-1999/dsh-memory",
     "Funluned/vetresearch-workbench",
     "GregorBiswanger/featherspec",
     "Greninja9257/LabLLM",
@@ -108,6 +109,7 @@
     "Reyzowter/Hello-Agents",
     "Rimagination/bili-note",
     "Sahir619/fable-method",
+    "Sajadapp/Youtube-Trend-Analyzer",
     "SaladDay/pi-from-scratch",
     "Sateezg/codex-bridge",
     "ShenSeanChen/waku-agent",
@@ -167,6 +169,7 @@
     "dataelement/dsh-desktop",
     "davidahmann/fde-guide",
     "decionis/agent-safe-pipeline",
+    "deepmemteam/deepmem",
     "deepseek-ai/deepseek-harness",
     "deer-flow/llm-space",
     "deerwork-ai/deer-workflow",
@@ -281,6 +284,7 @@
     "risa-labs-inc/BossConsole",
     "ronak-create/FableCut",
     "runvendo/vendo",
+    "ruvnet/ai-text-watermark",
     "s0ld13rr/pentestcode",
     "sadekxD/cardstock-diorama-myth",
     "sergezuber/FABULA-LLM-5",
@@ -301,6 +305,7 @@
     "synthetic-sciences/openscience",
     "thenicolas1894/awesome-claude-fable-5-prompt-vault",
     "thesysdev/appless",
+    "togettoyou/zke",
     "try1004/FlowLens-AgentOps",
     "tunabirgun/arf",
     "uczltw6/trace-file-lineage",
@@ -315,6 +320,7 @@
     "veedstudio/open-edit",
     "vshulcz/deja-vu",
     "waiterve/wai-play",
+    "wang2122/sprix-sage-router",
     "wangzhengpengjay/AI-Health-Steward",
     "wanmol/goal-flow",
     "wanshuiyin/HERO-Anti-OverDefense",
@@ -334,6 +340,7 @@
     "zeraix/zeraix",
     "zhiweio/EagleRAG",
     "zhiweio/data-driven-ai-guide",
-    "zimodzh/dsh-plugin-dev-skills"
+    "zimodzh/dsh-plugin-dev-skills",
+    "zjy1346/OpenThesis"
   ]
 }

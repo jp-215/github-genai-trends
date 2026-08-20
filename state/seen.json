@@ -10,6 +10,7 @@
     "7-e1even/learn-agent",
     "888newstep/ai-agent-platform",
     "AI-Builder-Club/skills",
+    "AI4CharityPL/kancelaria-lex",
     "AIScientists-Dev/academic-humanizer",
     "AMAP-ML/LongHorizon-Harness",
     "AVGVSTVS96/better-github-skill",
@@ -35,6 +36,7 @@
     "Coding-Dev-Tools/engraphis",
     "Cogeto/cogeto",
     "ContextJet-ai/awesome-llm-observability",
+    "CopilotKit/OpenBot",
     "CyberSunil/LLMVault",
     "DasterProkio/awesome-ai-companion",
     "DietrichGebert/ponytail",
@@ -117,6 +119,7 @@
     "SmileLikeYe/agent-chief",
     "SodaMem/SodaMem",
     "Sparkfetch/sparkfetch",
+    "Spielewoy/autoprompt-skill",
     "SuperJJ007/CSSwitch",
     "Supercompress/Supercompress",
     "TOPDEV99999/AI-Knowledge-Management-Platform",
@@ -128,6 +131,7 @@
     "Tura-AI/tura",
     "UditAkhourii/neuroarxiv",
     "UiPath/coder_eval",
+    "V1ki/dsh-plugin-subscriptions",
     "VantageInc/LucyLive-AI-Render",
     "Vaquill-AI/open-us-law",
     "Vincentwei1021/video-shotcraft",
@@ -148,6 +152,7 @@
     "aipoch/open-science",
     "alfadur7/llm-wiki-newsroom",
     "alikon-art/DeterminFlow",
+    "amitshekhariitbhu/llm-inference-engineering",
     "amplifthq/opentag",
     "antinomie-lab/pi-book",
     "arcships/aimux",
@@ -341,6 +346,7 @@
     "zhiweio/EagleRAG",
     "zhiweio/data-driven-ai-guide",
     "zimodzh/dsh-plugin-dev-skills",
-    "zjy1346/OpenThesis"
+    "zjy1346/OpenThesis",
+    "zorost/AI-Engineering-Lab"
   ]
 }

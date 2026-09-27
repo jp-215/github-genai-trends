@@ -2,6 +2,7 @@
   "seen": [
     "0toshigami/orbis-pictus",
     "0xblewalker/memory-recall-rerank",
+    "0xethanq/astra-quant-agent",
     "0xsline/OpenChatCut",
     "0xsline/awesome-deepseek-harness",
     "0xwilliamortiz/openclaude-improved",
@@ -26,6 +27,7 @@
     "AgustiPuigserver/opus-prompt-architect",
     "AhmadHassan-BTed/OpenOPC-Shadow-Adapter",
     "AlephAITech/WorkBuddyGuide",
+    "Alex314618-create/JevRev",
     "Ali-hey-0/ai-runtime-lab",
     "Alisa0808/vox-director",
     "Aliu-AiRobot/ESEILANE",
@@ -112,6 +114,7 @@
     "Leonxlnx/unlazy",
     "Leutenegger/book-to-skill",
     "LijingJim/J-AEIS",
+    "LockedinLabs-AI/agent-console",
     "MADEVAL/FerryAI",
     "MaxFreedomPollard/Compartment",
     "MaxHu-xuan/task-state-guard",
@@ -129,6 +132,7 @@
     "Nanako0129/pilotfish",
     "Nanako0129/sepia",
     "Neeeophytee/finding-unknowns-skills",
+    "Nehanth/pooled",
     "Nehanth/swarmllm",
     "NimaChu/my-wiki",
     "NimaChu/my-wiki-skill",
@@ -300,6 +304,7 @@
     "drpwchen/textbook-to-note",
     "drumih/turbo-fieldfare",
     "duty1g/x64dbg-mcp-server",
+    "dzhng/jevgrep",
     "ekzhang/openjev-sglang",
     "eli-labz/Agent-Execution-Partnership",
     "eli-labz/Cognitive-Core-Skills",
@@ -388,6 +393,7 @@
     "leepokai/jev-guard",
     "leeryong/DURU",
     "legoambarish/portable-handoff",
+    "lemomo-ai/lemo-opuscar",
     "lencx/Minke",
     "lennney/stop-that-shit",
     "levi-qiao/graphkit",
@@ -500,6 +506,7 @@
     "shanliuling/meme-sticker",
     "shauryagangrade/awesome-ai-prompts",
     "shengjidaguai-china/xiaoguan",
+    "shinthink/blitzstrike",
     "shtjww/llm-inference-capacity-handbook",
     "shy3130/tickflow-stock-panel",
     "shyringo/deepseek-v4-flash-0731-in-c",
@@ -595,6 +602,7 @@
     "zimodzh/dsh-plugin-dev-skills",
     "zj-unicom-ai/UniEmployee",
     "zjy1346/OpenThesis",
-    "zorost/AI-Engineering-Lab"
+    "zorost/AI-Engineering-Lab",
+    "zouyuxuan122/dsh-our-free-model"
   ]
 }

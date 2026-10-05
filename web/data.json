@@ -1,110 +1,121 @@
 {
   "label": "GenAI on GitHub",
-  "date": "2026-10-04",
-  "generated_ms": 1791139097378,
+  "date": "2026-10-05",
+  "generated_ms": 1791237638396,
   "repos": [
     {
-      "full_name": "QingYunA/answer-me-with-html",
-      "url": "https://github.com/QingYunA/answer-me-with-html",
-      "description": "Answer me with HTML \u2014 an agent skill that answers hard questions with a one-page HTML you can actually read. \u8ba9 AI Agent \u7528\u4e00\u9875 HTML \u56de\u7b54\u590d\u6742\u95ee\u9898\u3002",
-      "stars": 973,
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "\u5728 dsh \u91cc\u88c5\u4e0a\u8fd9\u4e2a\u63d2\u4ef6\u5373\u53ef\uff0c\u65e0\u9700\u767b\u5f55\u3001\u6ce8\u518c\u6216\u586b API Key\uff0c\u5c31\u80fd\u4f7f\u7528\u5305\u62ec DeepSeek V4.1 Flash\u3001Kimi K3 \u5728\u5185\u7684\u524d\u6cbf\u6a21\u578b\u2014\u2014\u5b8c\u5168\u514d\u8d39\uff0c\u4e0d\u9650\u91cf\u3002 All you do is install this plugin in dsh: no login, no sign-up, no API key \u2014 the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "stars": 1650,
       "language": "JavaScript",
       "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "velocity_per_day": 146.82,
+      "created_ms": 1790266639000,
+      "pushed_ms": 1791208109000
+    },
+    {
+      "full_name": "SyncSo-Inc/syncso",
+      "url": "https://github.com/SyncSo-Inc/syncso",
+      "description": "Let your agents understand what's happening locally, in real time \u2014 every experience across a city, with times, prices, booking links and images",
+      "stars": 296,
+      "language": "",
+      "topics": [
         "agent-skill",
-        "ai-agent",
-        "claude-code",
-        "cli",
-        "diagram",
-        "explainer",
-        "html",
-        "llm",
-        "ste100"
-      ],
-      "velocity_per_day": 412.02,
-      "created_ms": 1790935060000,
-      "pushed_ms": 1791131986000
-    },
-    {
-      "full_name": "whirlchat/whirl",
-      "url": "https://github.com/whirlchat/whirl",
-      "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
-      "stars": 431,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-chat",
-        "chat",
-        "convex",
-        "llm",
-        "nextjs",
-        "openrouter",
-        "react",
-        "self-hosted",
-        "typescript"
-      ],
-      "velocity_per_day": 195.93,
-      "created_ms": 1790949042000,
-      "pushed_ms": 1791012897000
-    },
-    {
-      "full_name": "malevrigns/agent-jev",
-      "url": "https://github.com/malevrigns/agent-jev",
-      "description": "AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.",
-      "stars": 338,
-      "language": "Python",
-      "topics": [
-        "ai",
         "ai-agents",
-        "ai-tools",
-        "jev",
-        "jev-model"
-      ],
-      "velocity_per_day": 25.82,
-      "created_ms": 1790007882000,
-      "pushed_ms": 1790862653000
-    },
-    {
-      "full_name": "jeonjw85/kenfold",
-      "url": "https://github.com/jeonjw85/kenfold",
-      "description": "Self-hosted memory server for AI agents. Share context across Claude Code, Codex, OpenCode, and ChatGPT over MCP.",
-      "stars": 47,
-      "language": "Go",
-      "topics": [
-        "agent-memory",
-        "ai-agents",
-        "chatgpt",
-        "claude-code",
-        "codex",
-        "golang",
+        "claude-skill",
+        "events",
+        "local-discovery",
         "mcp",
         "mcp-server",
-        "opencode",
-        "pgvector",
-        "postgresql",
-        "self-hosted"
+        "new-york"
       ],
-      "velocity_per_day": 6.28,
-      "created_ms": 1790492758000,
-      "pushed_ms": 1791032344000
+      "velocity_per_day": 24.79,
+      "created_ms": 1790206055000,
+      "pushed_ms": 1791175243000
     },
     {
-      "full_name": "agent-for-dummys/Agent-For-Dummies",
-      "url": "https://github.com/agent-for-dummys/Agent-For-Dummies",
-      "description": "Agent/RAG/AI\u5e94\u7528\uff1aAgent\u5b66\u4e60\u7b14\u8bb0 \u56fe\u6587\u7ed3\u5408\u6613\u7406\u89e3\u7248\u5165\u95e8\u5b66\u4e60\u7b14\u8bb0",
-      "stars": 26,
-      "language": "CSS",
+      "full_name": "fth1905-bot/ComfyUI-Civitai-Browser",
+      "url": "https://github.com/fth1905-bot/ComfyUI-Civitai-Browser",
+      "description": "Browse Civitai workflows & models inside ComfyUI and get any workflow ready in one click: load it, find missing models and download them into the right folders.",
+      "stars": 22,
+      "language": "JavaScript",
       "topics": [
-        "agent",
-        "beginner-friendly",
-        "chinese",
-        "llm",
-        "llm-agents",
-        "rag",
-        "study-notes"
+        "civitai",
+        "comfyui",
+        "comfyui-custom-nodes",
+        "comfyui-extension",
+        "generative-ai",
+        "model-downloader",
+        "stable-diffusion",
+        "workflow"
       ],
-      "velocity_per_day": 1.68,
-      "created_ms": 1789801455000,
-      "pushed_ms": 1791124554000
+      "velocity_per_day": 6.31,
+      "created_ms": 1790936357000,
+      "pushed_ms": 1791013017000
+    },
+    {
+      "full_name": "renfei421/ResearchPilot",
+      "url": "https://github.com/renfei421/ResearchPilot",
+      "description": "Evidence-grounded academic research agent with claim verification, prior-work analysis, and persistent research workspaces.",
+      "stars": 21,
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "fastapi",
+        "langgraph",
+        "llm",
+        "openai",
+        "openalex-api",
+        "rag",
+        "research-agent"
+      ],
+      "velocity_per_day": 3.9,
+      "created_ms": 1790772849000,
+      "pushed_ms": 1790775193000
+    },
+    {
+      "full_name": "unitedrhino/docling",
+      "url": "https://github.com/unitedrhino/docling",
+      "description": "Get your documents ready for gen AI, in pure Go. A Go alternative to anydoc & Docling \u2014 \u7eaf Go \u5b9e\u73b0\u7684\u6587\u6863\u89e3\u6790\u5e93:PDF/Word/PPT/Excel/HTML/Markdown/EML/\u56fe\u7247\u7b49 12 \u79cd\u683c\u5f0f\u7edf\u4e00\u89e3\u6790\u4e3a Docling \u534f\u8bae(Markdown/JSON/content_list),\u8868\u683c\u8fd8\u539f\u00b7\u591a\u680f\u9605\u8bfb\u987a\u5e8f\u00b7\u56fe\u8868\u6570\u636e\u56de\u586b,OCR \u6536\u655b\u4e3a\u4e00\u4e2a\u5927\u6a21\u578b\u63a5\u53e3,\u5355\u4e8c\u8fdb\u5236\u96f6\u4f9d\u8d56,\u5feb 34~153 \u500d\u3002\u8054\u7280\u7269\u8054\u7f51\u5e73\u53f0\u77e5\u8bc6\u5e93\u540c\u6b3e\u5f15\u64ce\u3002",
+      "stars": 22,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "anydoc",
+        "docling",
+        "document-parser",
+        "document-parsing",
+        "docx",
+        "go",
+        "golang",
+        "html",
+        "markdown",
+        "ocr",
+        "pdf",
+        "pdf-converter",
+        "pdf-to-json",
+        "pdf-to-text",
+        "pptx",
+        "rag",
+        "rag-chunking",
+        "tables",
+        "xlsx"
+      ],
+      "velocity_per_day": 0.9,
+      "created_ms": 1789114336000,
+      "pushed_ms": 1790846591000
     }
   ]
 }

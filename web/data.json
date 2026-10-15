@@ -1,107 +1,158 @@
 {
   "label": "GenAI on GitHub",
-  "date": "2026-10-14",
-  "generated_ms": 1792005783394,
+  "date": "2026-10-15",
+  "generated_ms": 1792091211641,
   "repos": [
     {
-      "full_name": "outcrawlai/scout",
-      "url": "https://github.com/outcrawlai/scout",
-      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
-      "stars": 614,
+      "full_name": "feder-cr/open_scion",
+      "url": "https://github.com/feder-cr/open_scion",
+      "description": "Open-source version of Scion: version control built for coding agents.",
+      "stars": 665,
+      "language": "Go",
+      "topics": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "velocity_per_day": 665.0,
+      "created_ms": 1792069922000,
+      "pushed_ms": 1792070684000
+    },
+    {
+      "full_name": "Zfinix/eleven",
+      "url": "https://github.com/Zfinix/eleven",
+      "description": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
+      "stars": 404,
       "language": "TypeScript",
+      "topics": [
+        "acp",
+        "ai-agents",
+        "android",
+        "decompiler",
+        "disassembler",
+        "ghidra",
+        "hopper",
+        "macos",
+        "rea",
+        "reverse-engineering"
+      ],
+      "velocity_per_day": 181.84,
+      "created_ms": 1791899251000,
+      "pushed_ms": 1792078691000
+    },
+    {
+      "full_name": "cdcailf/cjkfold",
+      "url": "https://github.com/cdcailf/cjkfold",
+      "description": "Fold look-alike CJK glyphs (Kangxi radicals, CJK radical supplements) so text extracted from PDFs matches again.",
+      "stars": 162,
+      "language": "Python",
+      "topics": [
+        "chinese",
+        "cjk",
+        "nfkc",
+        "nlp",
+        "pdf-extraction",
+        "rag",
+        "retrieval",
+        "text-normalization",
+        "unicode"
+      ],
+      "velocity_per_day": 59.96,
+      "created_ms": 1791857786000,
+      "pushed_ms": 1792037093000
+    },
+    {
+      "full_name": "2430816465/campus-knowledge-agent",
+      "url": "https://github.com/2430816465/campus-knowledge-agent",
+      "description": "\u6821\u56ed\u77e5\u8bc6\u670d\u52a1 Agent \u667a\u80fd\u4f53\u5e73\u53f0\uff1a\u57fa\u4e8e FastAPI\u3001Qwen3 \u4e0e RAG\uff0c\u8d2f\u901a\u516c\u5f00\u8d44\u6599\u89e3\u6790\u3001\u65f6\u95f4\u8303\u56f4\u68c0\u7d22\u3001\u8bc1\u636e\u6eaf\u6e90\u53ca\u4eba\u5de5\u5ba1\u6838\u3002",
+      "stars": 43,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "document-processing",
+        "fastapi",
+        "human-in-the-loop",
+        "knowledge-base",
+        "ollama",
+        "python",
+        "rag"
+      ],
+      "velocity_per_day": 25.15,
+      "created_ms": 1791943471000,
+      "pushed_ms": 1792000608000
+    },
+    {
+      "full_name": "RayenMlayeh/jevcrawl",
+      "url": "https://github.com/RayenMlayeh/jevcrawl",
+      "description": "MCP server and CLI that crawls websites for AI agents: finds the answer page 2x more often than Crawl4AI, 10x cheaper per answer than letting Claude crawl.",
+      "stars": 65,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude",
+        "crawler",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "python",
+        "rag",
+        "web-crawler",
+        "web-scraping"
+      ],
+      "velocity_per_day": 15.92,
+      "created_ms": 1791738396000,
+      "pushed_ms": 1792023008000
+    },
+    {
+      "full_name": "OceanOver/Tomechat",
+      "url": "https://github.com/OceanOver/Tomechat",
+      "description": "RAG knowledge-base chat app built on LangChain \u2014 FAISS vector search, FastAPI backend, Next.js WebUI, OpenAI/Gemini compatible",
+      "stars": 24,
+      "language": "TypeScript",
+      "topics": [
+        "ai-chatbot",
+        "chatbot",
+        "faiss",
+        "fastapi",
+        "gemini",
+        "knowledge-base",
+        "langchain",
+        "llm",
+        "nextjs",
+        "openai",
+        "rag",
+        "vector-database"
+      ],
+      "velocity_per_day": 3.27,
+      "created_ms": 1791457191000,
+      "pushed_ms": 1791953228000
+    },
+    {
+      "full_name": "GroundedCore/nexusdesk",
+      "url": "https://github.com/GroundedCore/nexusdesk",
+      "description": "Open-source, self-hostable AI customer service platform. An Apache-2.0 alternative to Intercom/Zendesk for teams that must keep support data on-premise. Agents draft tickets; humans confirm before anything is written.",
+      "stars": 33,
+      "language": "Python",
       "topics": [
         "ai-agent",
-        "browser-agent",
-        "browser-automation",
-        "cdp",
+        "customer-service",
+        "customer-support",
+        "fastapi",
+        "helpdesk",
+        "knowledge-base",
+        "langgraph",
+        "live-chat",
         "llm",
-        "typescript",
-        "web-automation"
+        "rag",
+        "self-hosted",
+        "ticketing-system"
       ],
-      "velocity_per_day": 432.53,
-      "created_ms": 1791883135000,
-      "pushed_ms": 1792001720000
-    },
-    {
-      "full_name": "deeplethe/solid-glass",
-      "url": "https://github.com/deeplethe/solid-glass",
-      "description": "A design system for AI applications. Material, physical, tactile, technical.",
-      "stars": 589,
-      "language": "TypeScript",
-      "topics": [
-        "agent-ui",
-        "ai",
-        "ai-agents",
-        "chat-ui",
-        "design-system",
-        "llm",
-        "react",
-        "shadcn",
-        "shadcn-ui",
-        "tailwindcss",
-        "theme"
-      ],
-      "velocity_per_day": 243.44,
-      "created_ms": 1791796742000,
-      "pushed_ms": 1791986503000
-    },
-    {
-      "full_name": "marclou/mailcheap",
-      "url": "https://github.com/marclou/mailcheap",
-      "description": "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.",
-      "stars": 926,
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "email",
-        "mcp",
-        "newsletter",
-        "nextjs",
-        "self-hosted"
-      ],
-      "velocity_per_day": 216.91,
-      "created_ms": 1791636936000,
-      "pushed_ms": 1792005709000
-    },
-    {
-      "full_name": "mw00/project-maya",
-      "url": "https://github.com/mw00/project-maya",
-      "description": "Project Maya - run GLM-5.3-Flash (321B MoE) privately on your own GPU(s), from one card to 16, NVIDIA or AMD, Linux or Windows. Engine, server, dashboard, OpenAI- and Anthropic-compatible API, quant tools.",
-      "stars": 833,
-      "language": "C++",
-      "topics": [
-        "cuda",
-        "glm",
-        "glm-5",
-        "llm",
-        "llm-inference",
-        "local-llm",
-        "mixture-of-experts",
-        "moe",
-        "openai-api",
-        "quantization",
-        "rocm",
-        "self-hosted"
-      ],
-      "velocity_per_day": 106.08,
-      "created_ms": 1791327313000,
-      "pushed_ms": 1791978120000
-    },
-    {
-      "full_name": "Fazmin/AILearningGuide",
-      "url": "https://github.com/Fazmin/AILearningGuide",
-      "description": "A desktop app that teaches you how modern AI works by letting you play with it.",
-      "stars": 135,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "educational",
-        "generative-ai",
-        "learning"
-      ],
-      "velocity_per_day": 13.91,
-      "created_ms": 1791167363000,
-      "pushed_ms": 1791998447000
+      "velocity_per_day": 1.45,
+      "created_ms": 1790129494000,
+      "pushed_ms": 1792083377000
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "label": "GenAI on GitHub",
-  "date": "2026-11-13",
-  "generated_ms": 1794605120575,
+  "date": "2026-11-14",
+  "generated_ms": 1794686137290,
   "repos": [
     {
-      "full_name": "lloweryfn-rgb/ai--manus",
-      "url": "https://github.com/lloweryfn-rgb/ai--manus",
+      "full_name": "TrapBladesmith/ai--manus2.0",
+      "url": "https://github.com/TrapBladesmith/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -31,15 +31,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581179000,
-      "pushed_ms": 1794581189000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684317000,
+      "pushed_ms": 1794684326000
     },
     {
-      "full_name": "eagrafki-byte/ai--manus",
-      "url": "https://github.com/eagrafki-byte/ai--manus",
+      "full_name": "Tonephorepair/ai--manus2.0",
+      "url": "https://github.com/Tonephorepair/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -63,15 +63,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581175000,
-      "pushed_ms": 1794581184000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684315000,
+      "pushed_ms": 1794684323000
     },
     {
-      "full_name": "agdinis/ai--manus",
-      "url": "https://github.com/agdinis/ai--manus",
+      "full_name": "trackboatwrightplan/ai--manus2.0",
+      "url": "https://github.com/trackboatwrightplan/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -95,15 +95,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581049000,
-      "pushed_ms": 1794581058000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684316000,
+      "pushed_ms": 1794684323000
     },
     {
-      "full_name": "ITprogamatikDedSec/ai--manus",
-      "url": "https://github.com/ITprogamatikDedSec/ai--manus",
+      "full_name": "taboospecialistblade/ai--manus2.0",
+      "url": "https://github.com/taboospecialistblade/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -127,15 +127,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581437000,
-      "pushed_ms": 1794581446000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684317000,
+      "pushed_ms": 1794684326000
     },
     {
-      "full_name": "python001-dev/manus--ai",
-      "url": "https://github.com/python001-dev/manus--ai",
+      "full_name": "Torusdrasocket/ai--manus2.0",
+      "url": "https://github.com/Torusdrasocket/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -159,15 +159,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581242000,
-      "pushed_ms": 1794581251000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684315000,
+      "pushed_ms": 1794684325000
     },
     {
-      "full_name": "mtn-imran-khan/manus--ai",
-      "url": "https://github.com/mtn-imran-khan/manus--ai",
+      "full_name": "trackersnailgrip/ai--manus2.0",
+      "url": "https://github.com/trackersnailgrip/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 299,
       "language": "",
       "topics": [
         "ai",
@@ -191,15 +191,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581275000,
-      "pushed_ms": 1794581282000
+      "velocity_per_day": 299.0,
+      "created_ms": 1794684317000,
+      "pushed_ms": 1794684326000
     },
     {
-      "full_name": "arberpilafi8-blip/ai--manus",
-      "url": "https://github.com/arberpilafi8-blip/ai--manus",
+      "full_name": "TremorRatTackle/ai--manus2.0",
+      "url": "https://github.com/TremorRatTackle/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 298,
       "language": "",
       "topics": [
         "ai",
@@ -223,15 +223,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581255000,
-      "pushed_ms": 1794581263000
+      "velocity_per_day": 298.0,
+      "created_ms": 1794684317000,
+      "pushed_ms": 1794684329000
     },
     {
-      "full_name": "qweqeqeqweqeqwe/manus--ai",
-      "url": "https://github.com/qweqeqeqweqeqwe/manus--ai",
+      "full_name": "Ultimateakiln/ai--manus2.0",
+      "url": "https://github.com/Ultimateakiln/ai--manus2.0",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 298,
       "language": "",
       "topics": [
         "ai",
@@ -255,15 +255,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581313000,
-      "pushed_ms": 1794581321000
+      "velocity_per_day": 298.0,
+      "created_ms": 1794684317000,
+      "pushed_ms": 1794684326000
     },
     {
-      "full_name": "kazim768/manus--ai",
-      "url": "https://github.com/kazim768/manus--ai",
+      "full_name": "armsworminterface/ai--manus",
+      "url": "https://github.com/armsworminterface/ai--manus",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 298,
       "language": "",
       "topics": [
         "ai",
@@ -287,15 +287,15 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581107000,
-      "pushed_ms": 1794581117000
+      "velocity_per_day": 263.28,
+      "created_ms": 1794588342000,
+      "pushed_ms": 1794661023000
     },
     {
-      "full_name": "PrathmeshYa/ai--manus",
-      "url": "https://github.com/PrathmeshYa/ai--manus",
+      "full_name": "WinnerBrokerBarrow/ai--manus",
+      "url": "https://github.com/WinnerBrokerBarrow/ai--manus",
       "description": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-      "stars": 146,
+      "stars": 298,
       "language": "",
       "topics": [
         "ai",
@@ -319,9 +319,9 @@
         "typescript-sdk",
         "vue"
       ],
-      "velocity_per_day": 146.0,
-      "created_ms": 1794581438000,
-      "pushed_ms": 1794581446000
+      "velocity_per_day": 262.98,
+      "created_ms": 1794588232000,
+      "pushed_ms": 1794661418000
     }
   ]
 }
